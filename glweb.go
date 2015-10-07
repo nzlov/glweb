@@ -72,7 +72,6 @@ func (self *GLWeb) Run(hp string) {
 		g.close()
 	}
 	log.Infoln("GLWeb Close")
-	log.Close()
 }
 
 func (self *GLWeb) loadgls() {
